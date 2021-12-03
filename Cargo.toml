@@ -1,0 +1,13 @@
+[package]
+name = "rust-rabbitmq-tutorial"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lapin = "1.8.0"
+log = "0.4"
+env_logger = "0.9"
+async-global-executor = "2.0.2"
+futures-util = "*"
